@@ -6,6 +6,8 @@ import{defineConfig} from 'vitepress'
       title: "SPEIT科创中心知识库",
       description: "Vault of Infinite KnoWLedge!",
       themeConfig: {
+        // site logo (shows at top-left in default theme)
+        logo: '/logo.png',
         // https://vitepress.dev/reference/default-theme-config
         nav:
         [
@@ -43,7 +45,23 @@ import{defineConfig} from 'vitepress'
           } ]
         },
 
-        socialLinks:
-        [ {icon: 'github', link: 'https://github.com/vuejs/vitepress'} ]
-      }
+        socialLinks: [ {
+          icon: 'github',
+          link: 'https://github.com/Satrpx/SPEIT-IC-VaultOfKnoWLedge'
+        } ],
+        // add head meta tags for favicon and social preview
+        // Note: VitePress also supports `head` at root level, but themeConfig
+        // is fine for readable grouping
+      },
+      head:
+      [
+        [ 'link', {rel: 'icon', href: '/SPEIT-IC-VaultOfKnoWLedge/logo.png'} ],
+        [
+          'meta', {
+            property: 'og:image',
+            content: '/SPEIT-IC-VaultOfKnoWLedge/inspiration-practice.png'
+          }
+        ],
+        [ 'meta', {name: 'twitter:card', content: 'summary_large_image'} ]
+      ]
     })

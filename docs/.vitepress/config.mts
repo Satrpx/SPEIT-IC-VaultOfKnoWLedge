@@ -14,6 +14,7 @@ import{defineConfig} from 'vitepress'
           {text: 'Home', link: '/'},
           // {text: 'Examples', link: '/markdown-examples'}
           {text: 'Workshop 1: Linux', link: '/lesson1'}
+          {text: 'Workshop 2: Vibe coding', link: '/lesson2'}
         ],
 
         sidebar: {
@@ -41,6 +42,26 @@ import{defineConfig} from 'vitepress'
               },
               {text: '项目复现流程', link: '/lesson1/04-项目复现流程'},
               {text: '常见问题与排错', link: '/lesson1/05-常见问题与排错'}
+            ]
+          } ]
+        },
+        '/lesson2/' : [ {
+            text: 'Workshop 2: Vibe coding',
+            items:
+            [
+              
+              {
+                text: '课前准备',
+                link: './lesson2/handout.zh.pre-class.md'
+              },
+              {
+                text: 'Qwen code 参考手册',
+                link: './lesson2/handout.zh.reference.md'
+              },
+              {
+                text: '课堂讲义',
+                link: './lesson2/handout.zh.in-class.md'
+              }
             ]
           } ]
         },

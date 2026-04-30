@@ -156,7 +156,7 @@ cd todo-app
 qwen
 ```
 
-**在浏览器打开：** http://localhost:8001
+**在浏览器打开：** `http://localhost:8001`
 
 **测试当前功能：**
 - 添加一个任务
@@ -230,7 +230,7 @@ qwen
 # 运行应用
 python app.py
 
-# 在浏览器打开 http://localhost:8001
+# 在浏览器打开 `http://localhost:8001`
 ```
 
 **测试新功能**：

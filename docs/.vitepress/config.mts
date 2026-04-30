@@ -52,15 +52,15 @@ import{defineConfig} from 'vitepress'
               
               {
                 text: '课前准备',
-                link: './lesson2/handout.zh.pre-class.md'
+                link: '/lesson2/handout.zh.pre-class.md'
               },
               {
                 text: 'Qwen code 参考手册',
-                link: './lesson2/handout.zh.reference.md'
+                link: '/lesson2/handout.zh.reference.md'
               },
               {
                 text: '课堂讲义',
-                link: './lesson2/handout.zh.in-class.md'
+                link: '/lesson2/handout.zh.in-class.md'
               }
             ]
           } ]

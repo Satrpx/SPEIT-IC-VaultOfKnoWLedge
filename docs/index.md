@@ -14,6 +14,9 @@ hero:
     - theme: brand
       text: 'Workshop 1: Linux & Git'
       link: /lesson1.md
+    - theme: brand
+      text: 'Workshop 2: Vibe coding'
+      link: /lesson2.md
     - theme: alt
       text: 什么是 SPEIT-IC？（暂未开放）
       link: /markdown-examples.md

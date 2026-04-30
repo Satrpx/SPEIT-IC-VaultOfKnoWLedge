@@ -65,8 +65,6 @@ import{defineConfig} from 'vitepress'
             ]
           } ]
         },
-        
-        },
 
         socialLinks: [ {
           icon: 'github',

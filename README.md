@@ -2,6 +2,9 @@ A Vault of Infinite KnoWLedge!
 All copyrights reserved
 SPEIT Innovation Center
 
+Install Dependency:
+npm i vitepress
+
 To run this project:
 
 | 目的 | 命令 (NPM) | 说明 |

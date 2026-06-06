@@ -63,6 +63,10 @@ import{defineConfig} from 'vitepress'
                 link: '/lesson2/handout.zh.in-class.md'
               }
             ]
+          } ],
+
+          '/lesson3/' : [ {
+            text: 'Workshop 3: Queues and Stacks'
           } ]
         },
 

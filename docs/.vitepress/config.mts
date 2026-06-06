@@ -13,8 +13,9 @@ import{defineConfig} from 'vitepress'
         [
           {text: 'Home', link: '/'},
           // {text: 'Examples', link: '/markdown-examples'}
-          {text: 'Workshop 1: Linux', link: '/lesson1'},
-          {text: 'Workshop 2: Vibe coding', link: '/lesson2'}
+          {text: 'Workshop 1', link: '/lesson1'},
+          {text: 'Workshop 2', link: '/lesson2'},
+          {text: 'Workshop 3', link: '/lesson3'}
         ],
 
         sidebar: {
@@ -46,7 +47,7 @@ import{defineConfig} from 'vitepress'
           } ],
 
           '/lesson2/' : [ {
-            text: 'Workshop 2: Vibe coding',
+            text: 'Workshop 2: Vibe Coding',
             items:
             [
               
